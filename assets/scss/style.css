@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+/*Variables*/
+body {
+  font-family: "Roboto", sans-serif; }
+
+.bannerImage {
+  position: relative; }
+  .bannerImage .item {
+    position: fixed;
+    z-index: -1;
+    width: 100%; }
+    .bannerImage .item img {
+      width: 100%;
+      height: auto; }
+
+.sectionHeading {
+  padding: 50px 0;
+  text-align: center;
+  margin: 70px 0 0;
+  display: inline-block;
+  width: 100%; }
+  .sectionHeading h1 {
+    color: #fff; }
+
+.mainFeatArea {
+  position: relative; }
+
+.loginArea {
+  width: 480px;
+  margin: 0 auto;
+  text-align: center; }
+
+.taskArea input[type="text"],
+.taskArea input[type="password"] {
+  padding: 10px 15px;
+  width: 100%;
+  margin-bottom: 25px;
+  display: inline-block; }
+  .taskArea input[type="text"]:active,
+  .taskArea input[type="password"]:active {
+    border: none; }
+.taskArea input[type="submit"] {
+  border: none;
+  color: #303030;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-bottom: 15px; }
+  .taskArea input[type="submit"]:hover {
+    background-color: #f64c72;
+    color: #fff; }
+  .taskArea input[type="submit"]:focus {
+    outline: none; }
+.taskArea button {
+  border: none;
+  color: #303030;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-bottom: 15px; }
+  .taskArea button:hover {
+    background-color: #f64c72;
+    color: #fff; }
+  .taskArea button:focus {
+    outline: none; }
+.taskArea h3 {
+  color: #fff; }
+.taskArea h5 {
+  color: #f64c72; }
+
+.taskNotes {
+  margin: 75px 0 0;
+  color: #fff; }
+  .taskNotes li {
+    position: relative;
+    padding-left: 21px;
+    margin-bottom: 10px; }
+    .taskNotes li::before {
+      content: "\f0c8";
+      font-family: FontAwesome;
+      font-size: 10px;
+      position: absolute;
+      left: 0;
+      top: 5px;
+      color: #f64c72; }
+
+/*# sourceMappingURL=style.css.map */

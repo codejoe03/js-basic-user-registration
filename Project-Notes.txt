@@ -1,0 +1,8 @@
+JS User Registration
+-----------------------
+- Basic user registration application without database
+- Checking of existing users using basic use of Array and worked using OOP
+- Used RegEx in email validation & phone number
+- Existing users
+  Username: joegomes.86@outlook.com
+  Phone: 111-111-11110
